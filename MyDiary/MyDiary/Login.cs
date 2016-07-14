@@ -10,12 +10,18 @@ using System.Windows.Forms;
 
 namespace MyDiary
 {
-    public partial class MainForm : Form
+    public partial class Login : Form
     {
-        public MainForm()
+        public Login()
         {
             InitializeComponent();
-            BackgroundImage = new Bitmap(@"C: \Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\Content\background.jpg");
+        }
+
+        private void EnterButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm form = new MainForm();
+            form.Show();
             
         }
     }

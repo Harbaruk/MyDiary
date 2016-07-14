@@ -1,6 +1,6 @@
 ﻿namespace MyDiary
 {
-    partial class MainForm
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            this.EnterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // notifyIcon
+            // EnterButton
             // 
-            this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-            this.notifyIcon.Text = "NotifyIcon";
-            this.notifyIcon.Visible = true;
+            this.EnterButton.Location = new System.Drawing.Point(200, 201);
+            this.EnterButton.Name = "EnterButton";
+            this.EnterButton.Size = new System.Drawing.Size(74, 29);
+            this.EnterButton.TabIndex = 0;
+            this.EnterButton.Text = "Enter";
+            this.EnterButton.UseVisualStyleBackColor = true;
+            this.EnterButton.Click += new System.EventHandler(this.EnterButton_Click);
             // 
-            // MainForm
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(584, 319);
-            this.Name = "MainForm";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(286, 242);
+            this.Controls.Add(this.EnterButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Login";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.NotifyIcon notifyIcon;
+        private System.Windows.Forms.Button EnterButton;
     }
 }
-
