@@ -12,7 +12,6 @@ namespace MyDiary
         public long Password
         {
             get { return password; }
-            set { password = value; }
         }
         public User(string pass)
         {
