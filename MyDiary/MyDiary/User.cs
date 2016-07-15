@@ -8,7 +8,12 @@ namespace MyDiary
 {
     class User
     {
-        private long password { get; set; }
+        private long password;
+        public long Password
+        {
+            get { return password; }
+            set { password = value; }
+        }
         public User(string pass)
         {
             password = pass.GetHashCode();
