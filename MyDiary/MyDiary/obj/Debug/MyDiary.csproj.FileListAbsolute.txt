@@ -10,3 +10,6 @@ C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.csproj.Genera
 C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.exe
 C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.pdb
 C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Login.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\bin\Debug\MyDiary.exe.config
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.exe
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.pdb
