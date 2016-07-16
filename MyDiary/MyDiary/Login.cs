@@ -19,10 +19,9 @@ namespace MyDiary
 
         private void EnterButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MainForm form = new MainForm();
-            form.Show();
-            
+            this.Close();
+            //MainForm form = new MainForm();
+            //form.Show();
         }
     }
 }

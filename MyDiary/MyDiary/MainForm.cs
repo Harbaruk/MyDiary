@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,9 @@ namespace MyDiary
         public MainForm()
         {
             InitializeComponent();
-            BackgroundImage = new Bitmap(@"C: \Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\Content\background.jpg");
+            Login login = new Login();
+            login.ShowDialog();
+            BackgroundImage = new Bitmap(@"..\..\Content\background.jpg");
             
         }
     }

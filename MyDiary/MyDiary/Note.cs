@@ -31,6 +31,7 @@ namespace MyDiary
         {
             Text = text;
             TimeOfCreation = DateTime.Now;
+            Mark = DayMark.Unknown;
         }
     }
 }
