@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyDiary
 {
-    class User
+   public class User
     {
         private long Password { get; }
 
