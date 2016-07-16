@@ -8,14 +8,10 @@ namespace MyDiary
 {
     class User
     {
-        private long password;
-        public long Password
-        {
-            get { return password; }
-        }
+        private long Password { get; }
         public User(string pass)
         {
-            password = pass.GetHashCode();
+            Password = pass.GetHashCode();
         }
     }
 }
