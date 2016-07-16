@@ -16,6 +16,7 @@ namespace MyDiary
         public MainForm()
         {
             InitializeComponent();
+            
             Login login = new Login();
             login.ShowDialog();
             BackgroundImage = new Bitmap(@"..\..\Content\background.jpg");

@@ -19,6 +19,7 @@ namespace MyDiary
         public DayMark Mark { get; set; }
 
         public Note() { }
+
         // Всі дані
         public Note(string text, DayMark mark)
         {
@@ -26,6 +27,7 @@ namespace MyDiary
             TimeOfCreation = DateTime.Now;
             Mark = mark;
         }
+
         //Текст і час створення
         public Note(string text)
         {
