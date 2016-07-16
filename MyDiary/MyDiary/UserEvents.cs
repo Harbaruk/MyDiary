@@ -11,21 +11,37 @@ namespace MyDiary
         private DateTime TimeOfCreation { get; set; }
         public string Text { get; set; }
         public DayMark Mark { get; set; }
+        public bool NeedToNotify { get; set; }
 
         public UserEvents() { }
         // Всі дані
-        public UserEvents(string text, DayMark mark)
+        public UserEvents(string text, DayMark mark, DateTime timeOfCreation)
         {
             Text = text;
-            TimeOfCreation = DateTime.Now;
+            TimeOfCreation = timeOfCreation;
             Mark = mark;
         }
         //Текст і час створення
-        public UserEvents(string text)
+        public UserEvents(string text, DateTime timeOfCreation)
         {
             Text = text;
-            TimeOfCreation = DateTime.Now;
+            TimeOfCreation = timeOfCreation;
             Mark = DayMark.Unknown;
+        }
+        public UserEvents(string text, DayMark mark, bool needToNotify, DateTime timeOfCreation)
+        {
+            Text = text;
+            TimeOfCreation = timeOfCreation;
+            Mark = mark;
+            NeedToNotify = needToNotify;
+        }
+        //Текст і час створення
+        public UserEvents(string text, bool needToNotify, DateTime timeOfCreation)
+        {
+            Text = text;
+            TimeOfCreation = timeOfCreation;
+            Mark = DayMark.Unknown;
+            needToNotify = NeedToNotify;
         }
     }
 }
