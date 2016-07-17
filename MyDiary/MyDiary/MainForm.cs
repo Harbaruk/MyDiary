@@ -19,6 +19,10 @@ namespace MyDiary
             
             Login login = new Login();
             login.ShowDialog();
+
+            NotesButton.Parent = this;
+            EventsButton.Parent = this;
+
             BackgroundImage = new Bitmap(@"..\..\Content\background.jpg");
             
         }
