@@ -14,6 +14,7 @@ namespace MyDiary
         public bool NeedToNotify { get; set; }
 
         public UserEvents() { }
+
         //Всі дані
         public UserEvents(string text, DayMark mark, bool needToNotify, DateTime timeOfCreation)
         {
