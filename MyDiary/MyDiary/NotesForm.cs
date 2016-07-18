@@ -12,9 +12,17 @@ namespace MyDiary
 {
     public partial class NotesForm : Form
     {
+        public string text;
+
         public NotesForm()
         {
             InitializeComponent();
+        }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            text = NoteTextBox.Text;
+            this.Close();
         }
     }
 }
