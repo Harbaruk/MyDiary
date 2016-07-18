@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.NotesButton = new System.Windows.Forms.Button();
             this.EventsButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NotesButton
@@ -44,6 +45,7 @@
             this.NotesButton.TabIndex = 0;
             this.NotesButton.Text = "Notes";
             this.NotesButton.UseVisualStyleBackColor = false;
+            this.NotesButton.Click += new System.EventHandler(this.NotesButton_Click);
             // 
             // EventsButton
             // 
@@ -57,6 +59,15 @@
             this.EventsButton.Text = "Events";
             this.EventsButton.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 114);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -65,11 +76,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(584, 319);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.EventsButton);
             this.Controls.Add(this.NotesButton);
             this.Name = "MainForm";
             this.Text = "MyDiary";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -77,6 +90,7 @@
 
         private System.Windows.Forms.Button NotesButton;
         private System.Windows.Forms.Button EventsButton;
+        private System.Windows.Forms.Label label1;
     }
 }
 
