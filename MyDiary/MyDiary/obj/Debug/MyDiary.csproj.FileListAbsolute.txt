@@ -22,3 +22,4 @@ E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Login.re
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.MainForm.resources
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Properties.Resources.resources
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.csproj.GenerateResource.Cache
+C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.NotesForm.resources
