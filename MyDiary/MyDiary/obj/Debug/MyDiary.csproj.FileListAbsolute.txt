@@ -24,3 +24,5 @@ E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Properti
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.csproj.GenerateResource.Cache
 C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.NotesForm.resources
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.NotesForm.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.ChangePassword.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.ErrorMessage.resources
