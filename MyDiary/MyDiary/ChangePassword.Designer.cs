@@ -30,7 +30,7 @@
         {
             this.CurrentPassword = new System.Windows.Forms.TextBox();
             this.NewPassword = new System.Windows.Forms.TextBox();
-            this.СonfirmNewPassword = new System.Windows.Forms.TextBox();
+            this.ConfirmNewPassword = new System.Windows.Forms.TextBox();
             this.ChangePasswordButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,6 +40,7 @@
             // CurrentPassword
             // 
             this.CurrentPassword.AccessibleDescription = "";
+            this.CurrentPassword.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.CurrentPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CurrentPassword.Location = new System.Drawing.Point(53, 110);
             this.CurrentPassword.Name = "CurrentPassword";
@@ -58,11 +59,11 @@
             // 
             // СonfirmNewPassword
             // 
-            this.СonfirmNewPassword.Location = new System.Drawing.Point(53, 202);
-            this.СonfirmNewPassword.Name = "СonfirmNewPassword";
-            this.СonfirmNewPassword.PasswordChar = '*';
-            this.СonfirmNewPassword.Size = new System.Drawing.Size(264, 20);
-            this.СonfirmNewPassword.TabIndex = 2;
+            this.ConfirmNewPassword.Location = new System.Drawing.Point(53, 202);
+            this.ConfirmNewPassword.Name = "СonfirmNewPassword";
+            this.ConfirmNewPassword.PasswordChar = '*';
+            this.ConfirmNewPassword.Size = new System.Drawing.Size(264, 20);
+            this.ConfirmNewPassword.TabIndex = 2;
             // 
             // ChangePasswordButton
             // 
@@ -106,12 +107,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(389, 315);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ChangePasswordButton);
-            this.Controls.Add(this.СonfirmNewPassword);
+            this.Controls.Add(this.ConfirmNewPassword);
             this.Controls.Add(this.NewPassword);
             this.Controls.Add(this.CurrentPassword);
             this.Name = "ChangePassword";
@@ -125,7 +127,7 @@
 
         private System.Windows.Forms.TextBox CurrentPassword;
         private System.Windows.Forms.TextBox NewPassword;
-        private System.Windows.Forms.TextBox СonfirmNewPassword;
+        private System.Windows.Forms.TextBox ConfirmNewPassword;
         private System.Windows.Forms.Button ChangePasswordButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

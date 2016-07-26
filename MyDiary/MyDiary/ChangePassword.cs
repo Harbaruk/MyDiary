@@ -22,10 +22,19 @@ namespace MyDiary
             User user = new User();
             if (user.Validation(CurrentPassword.Text) == true)
             {
-                if (NewPassword == СonfirmNewPassword)
+                if (NewPassword == ConfirmNewPassword)
                 {
-                    user.ChangePassword(СonfirmNewPassword.Text);
+                    user.ChangePassword(ConfirmNewPassword.Text);
                 }
+            }
+            else
+            {
+                ErrorMessage a = new ErrorMessage();
+                a.ShowDialog();
+
+                CurrentPassword.Clear();
+                NewPassword.Clear();
+                ConfirmNewPassword.Clear();
             }
         }
 
