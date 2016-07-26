@@ -17,7 +17,7 @@ namespace MyDiary
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ChangePasswordButton_Click(object sender, EventArgs e)
         {
             User user = new User();
             if (user.Validation(CurrentPassword.Text) == true)

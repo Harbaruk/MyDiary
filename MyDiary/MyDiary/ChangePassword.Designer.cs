@@ -39,8 +39,7 @@
             // 
             // CurrentPassword
             // 
-            this.CurrentPassword.AccessibleDescription = "ваввп";
-            this.CurrentPassword.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.CurrentPassword.AccessibleDescription = "";
             this.CurrentPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CurrentPassword.Location = new System.Drawing.Point(53, 110);
             this.CurrentPassword.Name = "CurrentPassword";
@@ -73,7 +72,7 @@
             this.ChangePasswordButton.TabIndex = 3;
             this.ChangePasswordButton.Text = "Змінити пароль";
             this.ChangePasswordButton.UseVisualStyleBackColor = true;
-            this.ChangePasswordButton.Click += new System.EventHandler(this.button1_Click);
+            this.ChangePasswordButton.Click += new System.EventHandler(this.ChangePasswordButton_Click);
             // 
             // label1
             // 
