@@ -29,9 +29,7 @@ namespace MyDiary
             }
             else
             {
-                ErrorMessage a = new ErrorMessage();
-                a.ShowDialog();
-
+                MessageBox.Show("Неправильно введений пароль ","Помилка авторизації",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 CurrentPassword.Clear();
                 NewPassword.Clear();
                 ConfirmNewPassword.Clear();
