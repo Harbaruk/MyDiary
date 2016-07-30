@@ -57,11 +57,11 @@
             // WelcomeLabel
             // 
             this.WelcomeLabel.AutoSize = true;
-            this.WelcomeLabel.Font = new System.Drawing.Font("Buxton Sketch", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.WelcomeLabel.ForeColor = System.Drawing.Color.Orange;
             this.WelcomeLabel.Location = new System.Drawing.Point(72, 32);
             this.WelcomeLabel.Name = "WelcomeLabel";
-            this.WelcomeLabel.Size = new System.Drawing.Size(148, 39);
+            this.WelcomeLabel.Size = new System.Drawing.Size(199, 37);
             this.WelcomeLabel.TabIndex = 2;
             this.WelcomeLabel.Text = "WELCOME!";
             // 
