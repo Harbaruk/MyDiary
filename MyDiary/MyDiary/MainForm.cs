@@ -29,18 +29,22 @@ namespace MyDiary
             note.FormClosing += Note_FormClosing;            
 
             BackgroundImage = new Bitmap(@"..\..\Content\background.jpg");
-            
+
         }
 
         private void Note_FormClosing(object sender, FormClosingEventArgs e)
         {
-            label1.Text = note.text;
             string text = note.text;
         }
 
         private void NotesButton_Click(object sender, EventArgs e)
         {
             note.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
