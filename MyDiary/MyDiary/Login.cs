@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -19,32 +20,40 @@ namespace MyDiary
         {
             InitializeComponent();
 
-            if (!File.Exists("Hash.txt"))
-            {
-                File.Create("Hash.txt");
-            }
+           
         }
 
         private void EnterButton_Click(object sender, EventArgs e)
         {
-            string pass = File.ReadAllText("Hash.txt");
-            if(pass != "")
+            // Встав свій connection string 
+            string connectionstring = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Elfarus\\Desktop\\MyDiary\\MyDiary\\MyDiary\\Diary.mdf;Integrated Security=True";
+            SqlConnection connect = new SqlConnection(connectionstring);
+            SqlDataReader reader;
+
+            string log = LoginBox.Text;
+            int pass = (PassBox.Text).GetHashCode();
+
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Users WHERE Login = @log AND Password = @pass", connect);
+            cmd.Parameters.Add(new SqlParameter("@log", log));
+            cmd.Parameters.Add(new SqlParameter("@pass", pass));
+
+            connect.Open();
+            reader = cmd.ExecuteReader();
+            
+
+            if (!reader.HasRows)
             {
-                if(pass == PassBox.Text.GetHashCode().ToString())
-                {
-                    IsLog = true;
-                    this.Close();
-                }
-                else
-                {
-                    PassBox.Text = "";
-                }
+                MessageBox.Show("Sorry, you're not registred", "Oops", MessageBoxButtons.OK);
+                connect.Close();
+                LoginBox.Text = "Login";
+                PassBox.Text = "********";
             }
+
             else
             {
                 IsLog = true;
-                File.WriteAllText("Hash.txt", PassBox.Text.GetHashCode().ToString());
-                this.Close();
+                connect.Close();
+                this.Hide();
             }
         }
 
@@ -59,6 +68,12 @@ namespace MyDiary
             {
                 Application.Exit();
             }
+        }
+
+        private void LoginBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            LoginBox.Text = "";
+            LoginBox.ForeColor = Color.Black;
         }
     }
 }
