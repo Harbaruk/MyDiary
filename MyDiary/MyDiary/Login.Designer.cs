@@ -34,6 +34,7 @@
             this.WelcomeLabel = new System.Windows.Forms.Label();
             this.LoginBox = new System.Windows.Forms.TextBox();
             this.RegButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // EnterButton
@@ -92,6 +93,23 @@
             this.RegButton.TabIndex = 4;
             this.RegButton.Text = "Registration";
             this.RegButton.UseVisualStyleBackColor = false;
+            this.RegButton.Click += new System.EventHandler(this.RegButton_Click);
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ExitButton.BackColor = System.Drawing.Color.Transparent;
+            this.ExitButton.BackgroundImage = global::MyDiary.Properties.Resources.cancel;
+            this.ExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ExitButton.FlatAppearance.BorderSize = 0;
+            this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ExitButton.ForeColor = System.Drawing.Color.Transparent;
+            this.ExitButton.Location = new System.Drawing.Point(279, 0);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(20, 19);
+            this.ExitButton.TabIndex = 5;
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // Login
             // 
@@ -101,6 +119,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(299, 282);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.RegButton);
             this.Controls.Add(this.LoginBox);
             this.Controls.Add(this.WelcomeLabel);
@@ -124,5 +143,6 @@
         private System.Windows.Forms.Label WelcomeLabel;
         private System.Windows.Forms.TextBox LoginBox;
         private System.Windows.Forms.Button RegButton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }
