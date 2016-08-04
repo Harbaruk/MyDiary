@@ -24,11 +24,12 @@ namespace MyDiary
 
             NotesButton.Parent = this;
             EventsButton.Parent = this;
-
+            Calendar.Parent = this;
+            //Calendar.BackColor = Color.Transparent;
             
             note.FormClosing += Note_FormClosing;            
 
-            BackgroundImage = new Bitmap(@"..\..\Content\background.jpg");
+           // BackgroundImage = new Bitmap(@"..\..\Content\background.jpg");
 
         }
 
