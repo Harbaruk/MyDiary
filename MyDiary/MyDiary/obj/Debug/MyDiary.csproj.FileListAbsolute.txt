@@ -26,3 +26,4 @@ C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.NotesForm.res
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.NotesForm.resources
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.ChangePassword.resources
 C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.ChangePassword.resources
+C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Registration.resources

@@ -19,7 +19,8 @@ namespace MyDiary
         public Login()
         {
             InitializeComponent();
-
+            ExitButton.Parent = this;
+            ExitButton.BackColor = Color.Transparent;
            
         }
 
@@ -74,6 +75,26 @@ namespace MyDiary
         {
             LoginBox.Text = "";
             LoginBox.ForeColor = Color.Black;
+        }
+
+        private void RegButton_Click(object sender, EventArgs e)
+        {
+            Registration regform = new Registration();
+            DialogResult res = regform.ShowDialog();
+            if (res == DialogResult.Cancel)
+            {
+                this.Close();
+            }
+            else
+            {
+                IsLog = true;
+                this.Hide();
+            }
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
