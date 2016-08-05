@@ -10,10 +10,18 @@ namespace MyDiary
     {
         private long Password { get; set; }
 
+        public string Login { get; set; }
+
         public User() { }
-        public User(string pass)
+        public User(string log, string pass)
         {
+            Login = log;
             Password = pass.GetHashCode();
+        }
+
+        public string GetPass()
+        {
+            return Password.ToString();
         }
         // Метод провіряє валідність пароля
         public bool Validation(string pass)
