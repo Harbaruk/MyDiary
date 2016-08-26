@@ -47,5 +47,11 @@ namespace MyDiary
         {
 
         }
+        // Викликає вікно "Options"
+        private void OptionsButton_Click(object sender, EventArgs e)
+        {
+            Options options = new Options();
+            options.ShowDialog();
+        }
     }
 }

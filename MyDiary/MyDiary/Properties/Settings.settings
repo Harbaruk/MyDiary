@@ -5,5 +5,8 @@
     <Setting Name="Awefull" Type="System.Drawing.Point" Scope="User">
       <Value Profile="(Default)">0, 0</Value>
     </Setting>
+    <Setting Name="Start_Fon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..//..//Content/Black_Fon.jpg</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

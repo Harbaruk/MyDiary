@@ -34,5 +34,17 @@ namespace MyDiary.Properties {
                 this["Awefull"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("..//..//Content/Black_Fon.jpg")]
+        public string Start_Fon {
+            get {
+                return ((string)(this["Start_Fon"]));
+            }
+            set {
+                this["Start_Fon"] = value;
+            }
+        }
     }
 }
