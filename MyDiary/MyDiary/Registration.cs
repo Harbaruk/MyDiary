@@ -15,7 +15,7 @@ namespace MyDiary
         public Registration()
         {
             InitializeComponent();
-            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Fon);
+            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Background);
         }
 
         private void OKButton_Click(object sender, EventArgs e)

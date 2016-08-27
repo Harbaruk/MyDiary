@@ -38,12 +38,12 @@ namespace MyDiary.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("..//..//Content/Black_Background.jpg")]
-        public string Start_Fon {
+        public string Start_Background {
             get {
-                return ((string)(this["Start_Fon"]));
+                return ((string)(this["Start_Background"]));
             }
             set {
-                this["Start_Fon"] = value;
+                this["Start_Background"] = value;
             }
         }
     }

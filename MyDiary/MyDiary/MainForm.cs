@@ -26,7 +26,7 @@ namespace MyDiary
             EventsButton.Parent = this;
             Calendar.Parent = this;
             //Calendar.BackColor = Color.Transparent;
-            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Fon);
+            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Background);
             
             note.FormClosing += Note_FormClosing;            
 
