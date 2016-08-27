@@ -21,6 +21,7 @@ namespace MyDiary
             InitializeComponent();
             ExitButton.Parent = this;
             ExitButton.BackColor = Color.Transparent;
+            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Background);
            
         }
 

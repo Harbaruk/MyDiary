@@ -83,6 +83,7 @@
             this.OptionsButton.TabIndex = 4;
             this.OptionsButton.Text = "Options";
             this.OptionsButton.UseVisualStyleBackColor = false;
+            this.OptionsButton.Click += new System.EventHandler(this.OptionsButton_Click);
             // 
             // button1
             // 

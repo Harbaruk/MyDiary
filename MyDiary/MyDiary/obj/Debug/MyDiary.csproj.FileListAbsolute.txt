@@ -27,3 +27,19 @@ E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.NotesFor
 E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.ChangePassword.resources
 C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.ChangePassword.resources
 C:\Users\Elfarus\Desktop\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Registration.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\bin\Debug\MyDiary.exe.config
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.exe
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.pdb
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\bin\Debug\Diary.mdf
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\bin\Debug\Diary_log.ldf
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\bin\Debug\MyDiary.exe
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\bin\Debug\MyDiary.pdb
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.csprojResolveAssemblyReference.cache
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.ChangePassword.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Login.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.MainForm.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.NotesForm.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Properties.Resources.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Registration.resources
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.csproj.GenerateResource.Cache
+E:\Gitab Project\SenjorBogdan\MyDiary\MyDiary\MyDiary\MyDiary\obj\Debug\MyDiary.Options.resources

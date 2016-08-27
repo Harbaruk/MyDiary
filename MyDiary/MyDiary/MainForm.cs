@@ -26,6 +26,7 @@ namespace MyDiary
             EventsButton.Parent = this;
             Calendar.Parent = this;
             //Calendar.BackColor = Color.Transparent;
+            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Background);
             
             note.FormClosing += Note_FormClosing;            
 
@@ -46,6 +47,12 @@ namespace MyDiary
         private void MainForm_Load(object sender, EventArgs e)
         {
 
+        }
+        // Викликає вікно "Options"
+        private void OptionsButton_Click(object sender, EventArgs e)
+        {
+            Options options = new Options();
+            options.ShowDialog();
         }
     }
 }
