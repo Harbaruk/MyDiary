@@ -43,7 +43,7 @@
             this.Black.TabIndex = 0;
             this.Black.Text = "Black";
             this.Black.UseVisualStyleBackColor = true;
-            this.Black.Click += new System.EventHandler(this.BlackFon_Click);
+            this.Black.Click += new System.EventHandler(this.BlackBackground_Click);
             // 
             // Blue
             // 
@@ -53,7 +53,7 @@
             this.Blue.TabIndex = 1;
             this.Blue.Text = "Blue";
             this.Blue.UseVisualStyleBackColor = true;
-            this.Blue.Click += new System.EventHandler(this.BlueFon_Click);
+            this.Blue.Click += new System.EventHandler(this.BlueBackground_Click);
             // 
             // label1
             // 
@@ -72,7 +72,7 @@
             this.White.TabIndex = 3;
             this.White.Text = "White";
             this.White.UseVisualStyleBackColor = true;
-            this.White.Click += new System.EventHandler(this.WhiteFon_Click);
+            this.White.Click += new System.EventHandler(this.WhiteBackground_Click);
             // 
             // ChooseImage
             // 

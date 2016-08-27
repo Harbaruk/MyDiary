@@ -18,6 +18,7 @@ namespace MyDiary
 
         {
             InitializeComponent();
+            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Fon);
         }
 
         private void Save(object sender, EventArgs e)

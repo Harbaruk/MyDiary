@@ -37,7 +37,7 @@ namespace MyDiary.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("..//..//Content/Black_Fon.jpg")]
+        [global::System.Configuration.DefaultSettingValueAttribute("..//..//Content/Black_Background.jpg")]
         public string Start_Fon {
             get {
                 return ((string)(this["Start_Fon"]));

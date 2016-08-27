@@ -18,29 +18,26 @@ namespace MyDiary
             // Встановлення фонового малюнка за замовчуванням
             BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Fon);
         }
-
-       OpenFileDialog fileDialog = new OpenFileDialog();
-
         // Чорний фон
-        private void BlackFon_Click(object sender, EventArgs e)
+        private void BlackBackground_Click(object sender, EventArgs e)
         {
-            string blackFon = "..//..//Content/Black_Fon.jpg";
+            string blackFon = "..//..//Content/Black_Background.jpg";
             BackgroundImage = Image.FromFile(blackFon);
             Properties.Settings.Default.Start_Fon = blackFon;
             Properties.Settings.Default.Save();
         }
         // Синій фон
-        private void BlueFon_Click(object sender, EventArgs e)
+        private void BlueBackground_Click(object sender, EventArgs e)
         {
-            string blueFon = "..//..//Content/Blue_Fon.jpg";
+            string blueFon = "..//..//Content/Blue_Background.jpg";
             BackgroundImage = Image.FromFile(blueFon);
             Properties.Settings.Default.Start_Fon = blueFon;
             Properties.Settings.Default.Save();
         }
         // Білий фон
-        private void WhiteFon_Click(object sender, EventArgs e)
+        private void WhiteBackground_Click(object sender, EventArgs e)
         {
-            string whiteFon = "..//..//Content/White_Fon.jpg";
+            string whiteFon = "..//..//Content/White_Background.jpg";
             BackgroundImage = Image.FromFile(whiteFon);
             Properties.Settings.Default.Start_Fon = whiteFon;
             Properties.Settings.Default.Save();

@@ -15,6 +15,7 @@ namespace MyDiary
         public ChangePassword()
         {
             InitializeComponent();
+            BackgroundImage = Image.FromFile(Properties.Settings.Default.Start_Fon);
         }
 
         private void ChangePasswordButton_Click(object sender, EventArgs e)

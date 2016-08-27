@@ -6,7 +6,7 @@
       <Value Profile="(Default)">0, 0</Value>
     </Setting>
     <Setting Name="Start_Fon" Type="System.String" Scope="User">
-      <Value Profile="(Default)">..//..//Content/Black_Fon.jpg</Value>
+      <Value Profile="(Default)">..//..//Content/Black_Background.jpg</Value>
     </Setting>
   </Settings>
 </SettingsFile>
