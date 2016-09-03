@@ -27,7 +27,7 @@ namespace MyDiary
 
         private void EnterButton_Click(object sender, EventArgs e)
         {
-            // Встав свій connection string версію чого?
+            // Встав свій connection string 
             string connectionstring = " Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = E:\\Gitab Project\\SenjorBogdan\\MyDiary\\MyDiary\\MyDiary\\MyDiary\\bin\\Debug\\Diary.mdf; Integrated Security = True;";
             SqlConnection connect = new SqlConnection(connectionstring);
             SqlDataReader reader;
