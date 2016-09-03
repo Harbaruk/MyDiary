@@ -23,7 +23,6 @@ namespace MyDiary
 
             connect.Open();
             reader = cmd.ExecuteReader();
-            //sdsf
         }
     }
 }
