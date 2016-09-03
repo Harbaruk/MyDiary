@@ -11,7 +11,7 @@ namespace MyDiary
     {
         public static void AddUser(User arg)
         {
-            string connectionstring = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Elfarus\\Desktop\\MyDiary\\MyDiary\\MyDiary\\Diary.mdf;Integrated Security=True";
+            string connectionstring = " Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = E:\\Gitab Project\\SenjorBogdan\\MyDiary\\MyDiary\\MyDiary\\MyDiary\\Diary.mdf; Integrated Security = True; Connect Timeout = 30";//я й без нього пробував,без нього взашалі помилку видає яку я тобі скріном скидував
             SqlConnection connect = new SqlConnection(connectionstring);
             SqlDataReader reader;
 
